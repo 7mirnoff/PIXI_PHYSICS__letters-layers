@@ -1,0 +1,29 @@
+@import "node_modules/normalize.css/normalize";
+@import "variables";
+@import "mixins";
+@import "scaffolding";
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+  margin: 0;
+  text-align: center;
+  font-size: 108px;
+  letter-spacing: -20.6px;
+  font-family: 'Alfa Slab One', sans-serif;
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
