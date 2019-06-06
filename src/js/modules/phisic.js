@@ -16,7 +16,7 @@ export default class PHISIC {
 
     this.diffX = 0
     this.diffY = 0
-    this.radius = 700
+    this.radius = 200
   }
 
   setPos (x, y) {
@@ -40,8 +40,8 @@ export default class PHISIC {
         ty = 2 * dy / norm
       }
 
-      this.vx += tx
-      this.vy += ty
+      this.vx += -tx
+      this.vy += -ty
     }
 
     // spring back
