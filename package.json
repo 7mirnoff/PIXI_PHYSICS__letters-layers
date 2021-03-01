@@ -44,7 +44,7 @@
     "animejs": "^3.0.1",
     "normalize.css": "8.0.1",
     "pixi.js": "^5.0.3",
-    "three": "^0.104.0",
+    "three": "^0.125.0",
     "three-orbit-controls": "^82.1.0",
     "webfontloader": "^1.6.28"
   }
